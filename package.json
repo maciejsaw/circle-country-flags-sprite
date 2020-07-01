@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass src/scss/bem-country-flag.scss dist/24x24-2x/bem-country-flag.css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/maciejsaw/circle-country-flags-sprite/issues"
   },
-  "homepage": "https://github.com/maciejsaw/circle-country-flags-sprite#readme"
+  "homepage": "https://github.com/maciejsaw/circle-country-flags-sprite#readme",
+  "devDependencies": {
+    "sass": "^1.26.9"
+  }
 }
