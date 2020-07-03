@@ -1,6 +1,7 @@
 # Circle country flags sprite
 All country flags in circle format and PNG sprite in 24x24-@2x size.
 Easily customizable via SCSS params and imagemagick SVG to PNG command.
+The flags images come from repo https://github.com/HatScripts/circle-flags
 
 # How to use the sprite?
 Go into "dist" folder and copy the image and CSS to your project
@@ -13,3 +14,4 @@ Go into "dist" folder and copy the image and CSS to your project
 4. Modify the SCSS file to match the desired size
 5. ```npm run sass```
 6. Go to ```dist``` folder and get the sprite css code
+
